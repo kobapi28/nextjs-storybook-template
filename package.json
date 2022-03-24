@@ -41,7 +41,6 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "eslint .storybook --fix",
       "eslint",
       "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx}'"
     ]
